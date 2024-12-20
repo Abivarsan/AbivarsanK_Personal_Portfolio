@@ -62,6 +62,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 import { Tilt } from 'react-tilt';
 import { SectionWrapper } from '../hoc';
 
+
 const ServiceCard = ({ title, icon, index }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -81,9 +82,7 @@ const ServiceCard = ({ title, icon, index }) => {
   );
 };
 
-const cvPath = process.env.NODE_ENV === "production"
-  ? "/Ketheeswaran-Abivarsan-Personal-Portfolio/Abivarsan_Ketheeswaran_CV.pdf"
-  : "/Abivarsan_Ketheeswaran_CV.pdf";
+
 
 const About = () => {
   return (
@@ -118,14 +117,13 @@ const About = () => {
                      
 
           <a 
-            href={cvPath} 
-            download="Abivarsan_Ketheeswaran_CV.pdf"
+            href="/Ketheeswaran-Abivarsan-Personal-Portfolio/Abivarsan_Ketheeswran_SE_INTERN_CV.pdf" 
+            download="Abivarsan_Ketheeswran_CV.pdf"
             className="bg-blue-500 text-white py-2 px-6 rounded-md hover:bg-blue-600 transition-colors"
+            aria-label="Download CV"
           >
- 
-
-              Download CV
-            </a>
+          Download CV
+        </a>
 
         </motion.div>
       </div>

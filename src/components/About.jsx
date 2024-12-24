@@ -117,7 +117,7 @@ const About = () => {
                      
 
           <a 
-            href="/Ketheeswaran-Abivarsan-Personal-Portfolio/Abivarsan_Ketheeswran_SE_INTERN_CV.pdf" 
+            href="/Ketheeswaran-Abivarsan-Personal-Portfolio/Abivarsan.pdf" 
             download="Abivarsan_Ketheeswran_CV.pdf"
             className="bg-blue-500 text-white py-2 px-6 rounded-md hover:bg-blue-600 transition-colors"
             aria-label="Download CV"
